@@ -1,5 +1,4 @@
 # ProductivityApp
-This is our final group project for the CodePath-Intermediate iOs Mobile Development.
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
