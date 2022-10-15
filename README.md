@@ -42,22 +42,22 @@ How clearly defined is the product you want to build?
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
+* User logs in to access timer
 * ...
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* add playlist for user to listen to music
+* 
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
+* Register - user signs up first then logs into account
+   * user is prompted to register upon download
    * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login
+   * user is prompted to login after registering
+
 
 ### 3. Navigation
 
