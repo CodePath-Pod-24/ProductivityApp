@@ -43,12 +43,13 @@ How clearly defined is the product you want to build?
 **Required Must-have Stories**
 
 * User logs in to access timer
-* ...
+* 
 
 **Optional Nice-to-have Stories**
 
 * add playlist for user to listen to music
-* 
+* user gets points in profile screen for completing goals
+
 
 ### 2. Screen Archetypes
 
@@ -57,6 +58,10 @@ How clearly defined is the product you want to build?
    * ...
 * Login
    * user is prompted to login after registering
+* Settings Screen
+   * user picks dark/light mode 
+* Profile Screen
+   * User gets points for completing goals
 
 
 ### 3. Navigation
