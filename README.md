@@ -7,9 +7,6 @@ This is our final group project for the CodePath-Intermediate iOs Mobile Develop
 2. [Schema](#Schema)
 
 ## Overview
-### Description
-[Description of your app]
-
 #### Description
 An app designed to increase the user’s productivity and concentration with the use of different studying methods and recommendations.
 #### Category:
