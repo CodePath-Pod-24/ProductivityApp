@@ -41,25 +41,26 @@ How clearly defined is the product you want to build?
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User logs in to access timer
-* 
+* User can create an account
+* User can login 
+* User can use the timer
+* User can change the duration of the timer
+* User can change the settings
 
 **Optional Nice-to-have Stories**
-
-* add playlist for user to listen to music
-* user gets points in profile screen for completing goals
+* User can add a playlist to listen to music 
+* User can receive points for successfully completing a study session
+* Use can view a feed of studying tips and recommandations
 
 
 ### 2. Screen Archetypes
 
-* Register - user signs up first then logs into account
-   * user is prompted to register upon download
-   * ...
+* Register - User signs up first then logs into account
+   * User is prompted to register upon download
 * Login
-   * user is prompted to login after registering
+   * User is prompted to login after registering
 * Settings Screen
-   * user picks dark/light mode 
+   * User picks dark/light mode 
 * Profile Screen
    * User gets points for completing goals
 
@@ -68,18 +69,22 @@ How clearly defined is the product you want to build?
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Settings Screen 
+* Studying Tips Recommendation Screen 
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login Screen
+   * Home Screen
+* Register Screen
+   * Home Screen
+* Home Screen
+  * Settings Screen
+  * Studying Tips Recommendation Screen
+* Settings Screen
+  * Home Screen
+* Studying Tips Recommendation Screen
+  * Home Screen 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
