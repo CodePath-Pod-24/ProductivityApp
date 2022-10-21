@@ -101,20 +101,19 @@ How clearly defined is the product you want to build?
 | studyTime    | Number   | Amount of time user studied         |
 ### Networking
 **List of network requests by screen**
-* Home Screen
-    *(Read/GET) Fetch user Spotify 
+- Home Screen
+    - (Read/GET) Fetch user Spotify 
     ![](https://i.imgur.com/95ZxjG5.png)
 - Profile Screen
-    *(Update/PUT) Update user profile image
+    - (Update/PUT) Update user profile image
     ![](https://i.imgur.com/JWf04YY.png)
-    
-    *(Update/PUT) Update user points
+    - (Update/PUT) Update user points
     ![](https://i.imgur.com/KJwq8uA.png)
     
-    *(Update/PUT) Update user total study time 
+    - (Update/PUT) Update user total study time 
     ![](https://i.imgur.com/RQ8BIZ4.png)
 
 - Studying Tips Screen
-    *(Read/GET) Fetch studying tips from external websites
+    - (Read/GET) Fetch studying tips from external websites
     ![](https://i.imgur.com/eZvMq8b.png)
 
