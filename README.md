@@ -95,10 +95,33 @@ How clearly defined is the product you want to build?
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+![](https://i.imgur.com/BZMJJf4.jpg)
 ### Models
-[Add table of models]
+**User**
+| **Property** | **Type** | **Description**                     |
+| ------------ | -------- | ----------------------------------- |
+| userPoints   | Number   | Number of points earned by user     |
+| image        | File     | Image that user posts               |
+| rankNumber   | Number   | Rank of user based on points earned |
+| username     | String   | Name of user                        |
+| password             |String          |Password to access user's account                                     |
+| studyTime    | Number   | Amount of time user studied         |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+**List of network requests by screen**
+* Home Screen
+    *(Read/GET) Fetch user Spotify 
+    ![](https://i.imgur.com/95ZxjG5.png)
+- Profile Screen
+    *(Update/PUT) Update user profile image
+    ![](https://i.imgur.com/JWf04YY.png)
+    
+    *(Update/PUT) Update user points
+    ![](https://i.imgur.com/KJwq8uA.png)
+    
+    *(Update/PUT) Update user total study time 
+    ![](https://i.imgur.com/RQ8BIZ4.png)
+
+- Studying Tips Screen
+    *(Read/GET) Fetch studying tips from external websites
+    ![](https://i.imgur.com/eZvMq8b.png)
+
