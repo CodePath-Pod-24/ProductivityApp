@@ -87,15 +87,8 @@ How clearly defined is the product you want to build?
   * Home Screen 
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
-## Schema 
 ![](https://i.imgur.com/BZMJJf4.jpg)
+## Schema 
 ### Models
 **User**
 | **Property** | **Type** | **Description**                     |
