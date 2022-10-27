@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FEA5788F8C9BAAF9A990D23 /* Pods_FluidityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BDDD6DF728831B910A3F03 /* Pods_FluidityTests.framework */; };
+		A2BD08B6FCCD85D0004CE553 /* Pods_Fluidity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58FB272D15C796D78FB9EF /* Pods_Fluidity.framework */; };
 		BEE194D5290A3C9900F4B409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE194D4290A3C9900F4B409 /* AppDelegate.swift */; };
 		BEE194D7290A3C9900F4B409 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE194D6290A3C9900F4B409 /* SceneDelegate.swift */; };
 		BEE194D9290A3C9900F4B409 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE194D8290A3C9900F4B409 /* LoginViewController.swift */; };
@@ -16,6 +18,7 @@
 		BEE194EC290A3CA000F4B409 /* FluidityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE194EB290A3CA000F4B409 /* FluidityTests.swift */; };
 		BEE194F6290A3CA000F4B409 /* FluidityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE194F5290A3CA000F4B409 /* FluidityUITests.swift */; };
 		BEE194F8290A3CA000F4B409 /* FluidityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE194F7290A3CA000F4B409 /* FluidityUITestsLaunchTests.swift */; };
+		FC288B94C91926F9BDBFEF23 /* Pods_Fluidity_FluidityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8B7836EF2D803057414A44 /* Pods_Fluidity_FluidityUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155D1E3C9106880984EB7669 /* Pods-Fluidity-FluidityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidity-FluidityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fluidity-FluidityUITests/Pods-Fluidity-FluidityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16121B51163C0FEB5B21F033 /* Pods-FluidityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidityTests.debug.xcconfig"; path = "Target Support Files/Pods-FluidityTests/Pods-FluidityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FC95F042B54814EF2E526C0 /* Pods-Fluidity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidity.release.xcconfig"; path = "Target Support Files/Pods-Fluidity/Pods-Fluidity.release.xcconfig"; sourceTree = "<group>"; };
+		6D8B7836EF2D803057414A44 /* Pods_Fluidity_FluidityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fluidity_FluidityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEBA6A3A60433BB67F26EB /* Pods-Fluidity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidity.debug.xcconfig"; path = "Target Support Files/Pods-Fluidity/Pods-Fluidity.debug.xcconfig"; sourceTree = "<group>"; };
+		A60D62150D4D33D90B89A424 /* Pods-Fluidity-FluidityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidity-FluidityUITests.release.xcconfig"; path = "Target Support Files/Pods-Fluidity-FluidityUITests/Pods-Fluidity-FluidityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA58FB272D15C796D78FB9EF /* Pods_Fluidity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fluidity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAED808A46BF6C3D7DD6ACA /* Pods-FluidityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidityTests.release.xcconfig"; path = "Target Support Files/Pods-FluidityTests/Pods-FluidityTests.release.xcconfig"; sourceTree = "<group>"; };
 		BEE194D1290A3C9900F4B409 /* Fluidity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluidity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE194D4290A3C9900F4B409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE194D6290A3C9900F4B409 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		BEE194F1290A3CA000F4B409 /* FluidityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE194F5290A3CA000F4B409 /* FluidityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidityUITests.swift; sourceTree = "<group>"; };
 		BEE194F7290A3CA000F4B409 /* FluidityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3BDDD6DF728831B910A3F03 /* Pods_FluidityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BD08B6FCCD85D0004CE553 /* Pods_Fluidity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FEA5788F8C9BAAF9A990D23 /* Pods_FluidityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC288B94C91926F9BDBFEF23 /* Pods_Fluidity_FluidityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		753E7363B744A56D6CE0FA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA58FB272D15C796D78FB9EF /* Pods_Fluidity.framework */,
+				6D8B7836EF2D803057414A44 /* Pods_Fluidity_FluidityUITests.framework */,
+				C3BDDD6DF728831B910A3F03 /* Pods_FluidityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEE194C8290A3C9900F4B409 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				BEE194EA290A3CA000F4B409 /* FluidityTests */,
 				BEE194F4290A3CA000F4B409 /* FluidityUITests */,
 				BEE194D2290A3C9900F4B409 /* Products */,
+				D68507DC529B17261453E2ED /* Pods */,
+				753E7363B744A56D6CE0FA8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = FluidityUITests;
 			sourceTree = "<group>";
 		};
+		D68507DC529B17261453E2ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79BEBA6A3A60433BB67F26EB /* Pods-Fluidity.debug.xcconfig */,
+				2FC95F042B54814EF2E526C0 /* Pods-Fluidity.release.xcconfig */,
+				155D1E3C9106880984EB7669 /* Pods-Fluidity-FluidityUITests.debug.xcconfig */,
+				A60D62150D4D33D90B89A424 /* Pods-Fluidity-FluidityUITests.release.xcconfig */,
+				16121B51163C0FEB5B21F033 /* Pods-FluidityTests.debug.xcconfig */,
+				BDAED808A46BF6C3D7DD6ACA /* Pods-FluidityTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEE194FB290A3CA100F4B409 /* Build configuration list for PBXNativeTarget "Fluidity" */;
 			buildPhases = (
+				F6B5650D8FE84E0EC4A92374 /* [CP] Check Pods Manifest.lock */,
 				BEE194CD290A3C9900F4B409 /* Sources */,
 				BEE194CE290A3C9900F4B409 /* Frameworks */,
 				BEE194CF290A3C9900F4B409 /* Resources */,
+				F0C4EAC384769DB05D90B548 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEE194FE290A3CA100F4B409 /* Build configuration list for PBXNativeTarget "FluidityTests" */;
 			buildPhases = (
+				171997BCF6DD23909D68CB68 /* [CP] Check Pods Manifest.lock */,
 				BEE194E3290A3CA000F4B409 /* Sources */,
 				BEE194E4290A3CA000F4B409 /* Frameworks */,
 				BEE194E5290A3CA000F4B409 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEE19501290A3CA100F4B409 /* Build configuration list for PBXNativeTarget "FluidityUITests" */;
 			buildPhases = (
+				C44745A646586AEB7AA25857 /* [CP] Check Pods Manifest.lock */,
 				BEE194ED290A3CA000F4B409 /* Sources */,
 				BEE194EE290A3CA000F4B409 /* Frameworks */,
 				BEE194EF290A3CA000F4B409 /* Resources */,
+				51A52BDF8E2979E1529A7100 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171997BCF6DD23909D68CB68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FluidityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A52BDF8E2979E1529A7100 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fluidity-FluidityUITests/Pods-Fluidity-FluidityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fluidity-FluidityUITests/Pods-Fluidity-FluidityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fluidity-FluidityUITests/Pods-Fluidity-FluidityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44745A646586AEB7AA25857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fluidity-FluidityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C4EAC384769DB05D90B548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fluidity/Pods-Fluidity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fluidity/Pods-Fluidity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fluidity/Pods-Fluidity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B5650D8FE84E0EC4A92374 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fluidity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEE194CD290A3C9900F4B409 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		BEE194FC290A3CA100F4B409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79BEBA6A3A60433BB67F26EB /* Pods-Fluidity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		BEE194FD290A3CA100F4B409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC95F042B54814EF2E526C0 /* Pods-Fluidity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		BEE194FF290A3CA100F4B409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16121B51163C0FEB5B21F033 /* Pods-FluidityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		BEE19500290A3CA100F4B409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAED808A46BF6C3D7DD6ACA /* Pods-FluidityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		BEE19502290A3CA100F4B409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155D1E3C9106880984EB7669 /* Pods-Fluidity-FluidityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		BEE19503290A3CA100F4B409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60D62150D4D33D90B89A424 /* Pods-Fluidity-FluidityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
