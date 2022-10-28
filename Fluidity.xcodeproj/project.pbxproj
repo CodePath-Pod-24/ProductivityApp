@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EE0D1B4290B851D00559C15 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D1B3290B851D00559C15 /* HomeViewController.swift */; };
+		0EE0D1B8290B91C400559C15 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0D1B7290B91C400559C15 /* alarm.mp3 */; };
 		8FEA5788F8C9BAAF9A990D23 /* Pods_FluidityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BDDD6DF728831B910A3F03 /* Pods_FluidityTests.framework */; };
 		A2BD08B6FCCD85D0004CE553 /* Pods_Fluidity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58FB272D15C796D78FB9EF /* Pods_Fluidity.framework */; };
 		BEE194D5290A3C9900F4B409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE194D4290A3C9900F4B409 /* AppDelegate.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE0D1B3290B851D00559C15 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0EE0D1B7290B91C400559C15 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm.mp3; path = ../../../Downloads/alarm.mp3; sourceTree = "<group>"; };
 		155D1E3C9106880984EB7669 /* Pods-Fluidity-FluidityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidity-FluidityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fluidity-FluidityUITests/Pods-Fluidity-FluidityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		16121B51163C0FEB5B21F033 /* Pods-FluidityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidityTests.debug.xcconfig"; path = "Target Support Files/Pods-FluidityTests/Pods-FluidityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FC95F042B54814EF2E526C0 /* Pods-Fluidity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluidity.release.xcconfig"; path = "Target Support Files/Pods-Fluidity/Pods-Fluidity.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				BEE194DD290A3CA000F4B409 /* Assets.xcassets */,
 				BEE194DF290A3CA000F4B409 /* LaunchScreen.storyboard */,
 				BEE194E2290A3CA000F4B409 /* Info.plist */,
+				0EE0D1B7290B91C400559C15 /* alarm.mp3 */,
+				0EE0D1B3290B851D00559C15 /* HomeViewController.swift */,
 			);
 			path = Fluidity;
 			sourceTree = "<group>";
@@ -164,7 +170,6 @@
 				16121B51163C0FEB5B21F033 /* Pods-FluidityTests.debug.xcconfig */,
 				BDAED808A46BF6C3D7DD6ACA /* Pods-FluidityTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE0D1B8290B91C400559C15 /* alarm.mp3 in Resources */,
 				BEE194E1290A3CA000F4B409 /* LaunchScreen.storyboard in Resources */,
 				BEE194DE290A3CA000F4B409 /* Assets.xcassets in Resources */,
 				BEE194DC290A3C9900F4B409 /* Main.storyboard in Resources */,
@@ -410,6 +416,7 @@
 				BEE194D9290A3C9900F4B409 /* LoginViewController.swift in Sources */,
 				BEE194D5290A3C9900F4B409 /* AppDelegate.swift in Sources */,
 				BEE194D7290A3C9900F4B409 /* SceneDelegate.swift in Sources */,
+				0EE0D1B4290B851D00559C15 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
